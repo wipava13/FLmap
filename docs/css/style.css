@@ -8,12 +8,12 @@ body{
 }
 
 .mapdiv path {
-    fill: #cc1100;
-    stroke: #dece0c;
-    stroke-width:4px;
+    fill: #00FF00;
+    stroke: #005500;
+    stroke-width:.03px;
     transition: fill 0.3s;
 }
 
-.mapdiv :hover {
-    fill:#000;
+.mapdiv path:hover {
+    fill:#AA00FF;
 }
