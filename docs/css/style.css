@@ -3,17 +3,21 @@ body{
 }
 
 .mapdiv{
-    width:28%;
+    width:100%;
     margin: auto;
 }
 
 .mapdiv path {
-    fill: #00FF00;
-    stroke: #005500;
-    stroke-width:.03px;
+    fill: #EEEEEE;
+    stroke: #ff00ff;
+    stroke-width:2px;
     transition: fill 0.3s;
 }
 
+.mapdiv:hover path{
+    fill:#000000;
+}
+
 .mapdiv path:hover {
-    fill:#AA00FF;
+    fill:#0000FF;
 }
